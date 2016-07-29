@@ -18,6 +18,7 @@
     function controller($scope){
         var ctrl = this;
         ctrl.columns = [];
+        $scope.emptyListMessage = "Nothing Found";
         ctrl.hasCollapsibleColumn = false;
 
         /**
